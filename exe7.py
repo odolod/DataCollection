@@ -44,3 +44,5 @@ print(len(tvs))
 #записываем данные в файл
 with open('tvs_data.json', 'w', encoding="utf-8") as f:
     json.dump(tvs, f)
+
+
